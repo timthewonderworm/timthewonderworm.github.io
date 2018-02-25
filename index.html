@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 
-<style type="text/css">
- hr {
- color:#Blue;
- border:none;
- height:2px;
- }
- </style> 
+
 
 
 <html>
 <head>
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+ 
 <title>This is Me!</title>
 </head>
 <body>
@@ -18,7 +21,9 @@
  
 
 <h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<div class="transbox">
+    <p>This is some text that is placed in the transparent box.</p>
+  </div>
   
 <a href="https://3dwarehouse.sketchup.com/user/1504752651371935519515668/KyleW?nav=models" target="_blank">A Few of My Sketchup Models</a> 
  <img src="https://3dwarehouse.sketchup.com/warehouse/getpubliccontent?contentId=7bb88fbd-a09a-4e13-938d-bc0cf397d7e3" alt="Crown Molding"> 
