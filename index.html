@@ -1,31 +1,72 @@
 <!DOCTYPE html>
+<html lang="en">
 
-
-
-
-<html>
 <head>
-div.transbox {
-    margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-
- 
-<title>This is Me!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" contect="width=divice-width">
+  <meta name="discription" content="Personal Portfolio">
+  <meta name="keywords" content="web design, drafting, autocad, revit, sketchup">
+  <meta name="author" content="Kyle W O'Riley">
+  <title>Kyle W Designs | Welcome</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
- 
- 
 
-<h1>This is a Heading</h1>
-<div class="transbox">
-    <p>This is some text that is placed in the transparent box.</p>
-  </div>
-  
-<a href="https://3dwarehouse.sketchup.com/user/1504752651371935519515668/KyleW?nav=models" target="_blank">A Few of My Sketchup Models</a> 
- <img src="https://3dwarehouse.sketchup.com/warehouse/getpubliccontent?contentId=7bb88fbd-a09a-4e13-938d-bc0cf397d7e3" alt="Crown Molding"> 
+<body>
+  <header>
+    <!-- class over and over -->
+    <div class="container">
+      <!-- id only use one -->
+      <div id="branding">
+
+        <h1> Kyle <span class="highlight">W</span> Design</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="protfolio.html">Portfolio</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+  </header>
+  <section id="showcase">
+    <div class="container">
+      <h1>Architectural Design</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel risus mattis, fringilla turpis eu, iaculis augue. Nunc gravida justo vel congue efficitur.</p>
+    </div>
+  </section>
+  <section id="newsletter">
+    <div class="container">
+      <h1>Subscribe To My Newsletter</h1>
+      <form>
+        <imput type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  <section id="boxes">
+    <div class="container">
+      <div class="box">
+        <img src="./img/Autodesk-Revit-icon.png" alt="Revit">
+        <h3>Revit</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel risus mattis, fringilla turpis eu, iaculis augue. Nunc gravida justo vel congue efficitur.</p>
+      </div>
+      <div class="box">
+        <img src="./img/Autodesk-Autocad-icon.png" alt="Revit">
+        <h3>AutoCAD</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel risus mattis, fringilla turpis eu, iaculis augue. Nunc gravida justo vel congue efficitur.</p>
+      </div>
+      <div class="box">
+        <img src="./img/Trimble-Sketchup-icon.png" alt="Revit">
+        <h3>Sketchup</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel risus mattis, fringilla turpis eu, iaculis augue. Nunc gravida justo vel congue efficitur.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Kyle W Design, Copyright &copy; 2018</p>
+  </footer>
 </body>
-</html> 
+</html>
